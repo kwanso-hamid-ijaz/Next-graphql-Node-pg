@@ -1,0 +1,24 @@
+.art {
+  width: 70%;
+  margin: 0.5% auto;
+}
+.aurther {
+  float: right;
+  margin-right: 5%;
+  color: rgb(175, 71, 88);
+}
+
+.art:after {
+  display: inline-block;
+  content: "";
+  border-top: 0.1rem solid black;
+  width: 100%;
+  transform: translateY(-1rem);
+}
+
+.heading {
+  color: rgb(197, 31, 86);
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(79, 98, 148);
+}
